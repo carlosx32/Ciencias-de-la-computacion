@@ -94,13 +94,14 @@ void ArbolBinario::recorridoPostorden(Nodo *raiz){
 }
 
 void ArbolBinario::recorridoNiveles(){
-	
+	Nodo *p;
 	cout<<"Metodo aun no implementado";
 	queue<Nodo *> c;
 	c.push(raiz);
 	while (!c.empty() ){
+		p = c.front();
 		c.pop();
-		cout<<c.front() <<" ";
+		cout<< p->elemento<<" ";
 		c.push(raiz->izq);
 		c.push(raiz->der);
 	 }
