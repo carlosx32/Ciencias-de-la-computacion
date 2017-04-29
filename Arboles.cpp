@@ -579,7 +579,11 @@ void Menu::binarioMenu(){
             }
 			case 'o':{
 					system("cls");
-                    cout << " not yet"<<endl;
+                    if(arbol.isComplete()){
+                    	cout<<"el arbol es completo";
+					}else{
+						cout<<"el arbol no es completo";
+					}
                     system("pause");
 					break;
 			}  
@@ -666,7 +670,11 @@ void Menu::avlMenu(){
                 }
 				case 'o':{
 					system("cls");
-                    cout << " not yet"<<endl;
+                    if(arbol.isComplete()){
+                    	cout<<"el arbol es completo";
+					}else{
+						cout<<"el arbol no es completo";
+					}
                     system("pause");
 					break;
 				} 
