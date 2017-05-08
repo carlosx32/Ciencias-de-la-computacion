@@ -1,8 +1,9 @@
-/*	|_______________________________________________|
+/*	|_______________________________________________________|
 	|	  Carlos David Camacho Panche 20151020034	|
 	|  	  Esteban Elias Romero Jaimes 20151020048	|
-	|												|
-	|Universidad Distrital Francisco jose de caldas	|
+	|							|					|
+	|Universidad Distrital Francisco jose de caldas		|
+	|_______________________________________________________|
 */
 #include "iostream"
 #include <ctype.h>
