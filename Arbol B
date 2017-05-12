@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+struct{
+	int *clave;
+	Pagina *apunt;
+	int con;
+};
+
+class arbolB{
+	Pagina *raiz;
+	int N;
+	public:
+		ArbolB(int);
+		void insertar(int);
+		void eliminar(int);
+		void mostrarInorden();
+	
+};
